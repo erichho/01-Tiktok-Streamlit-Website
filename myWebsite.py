@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-mapboxToken = "pk.eyJ1IjoiZXJpY2hobyIsImEiOiJjanlmc2dtdWcwcDNyM2NxcXV3YTY1aXdxIn0.dg2jz0OJplKUiBEsn0jTIg"
+mapboxToken = "insert plotly token"
 def main():
 	########## Leer datos con Pandas ####
 	df = pd.read_csv('DB.csv', delimiter='|')
